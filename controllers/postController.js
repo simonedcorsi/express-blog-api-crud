@@ -4,7 +4,7 @@ function index(req, res) {
     
     let filteredPosts = posts;
 
-    res.pippo();//errore
+    // res.pippo();//errore
 
     if (req.query.tags){
         filteredPosts = posts.filter(post => {
